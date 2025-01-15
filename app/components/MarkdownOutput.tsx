@@ -25,7 +25,8 @@ const MarkdownOutput = ({ output }: MarkdownOutputProps) => (
               <SyntaxHighlighter
                 style={atomDarkStyle as any}
                 language={match[1]}
-                PreTag="div">
+                PreTag="div"
+              >
                 {String(children).replace(/\n$/, "")}
               </SyntaxHighlighter>
             ) : (
@@ -34,7 +35,8 @@ const MarkdownOutput = ({ output }: MarkdownOutputProps) => (
               </code>
             );
           },
-        }}>
+        }}
+      >
         {output}
       </ReactMarkdown>
     </div>

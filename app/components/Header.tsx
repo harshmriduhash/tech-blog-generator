@@ -13,7 +13,8 @@ const Header = ({ darkMode, toggleDarkMode }: HeaderProps) => (
       <h1 className="text-xl font-bold">Tech Content Generator</h1>
       <button
         onClick={toggleDarkMode}
-        className="bg-gray-200 dark:bg-gray-700 p-2 rounded-lg shadow hover:bg-gray-300 dark:hover:bg-gray-600">
+        className="bg-gray-200 dark:bg-gray-700 p-2 rounded-lg shadow hover:bg-gray-300 dark:hover:bg-gray-600"
+      >
         {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
       </button>
     </div>

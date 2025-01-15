@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Markdown Styling */
+.generator {
+  max-width: none;
+}
+.dark .generator-invert {
+  --tw-generator-body: #d1d5db;
+  --tw-generator-headings: #ffffff;
+  --tw-generator-links: #60a5fa;
+  --tw-generator-links-hover: #3b82f6;
+  --tw-generator-code: #f87171;
+  --tw-generator-code-bg: #1f2937;
+}
